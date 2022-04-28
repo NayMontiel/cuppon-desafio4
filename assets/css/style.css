@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+/* nav */
+.container-fluid{
+    background-color: #28a745;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.navbar-brand{
+    width: 6rem;
+}
+#navbarSupportedContent{
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #28a745;
+}
+.container-fluid a, li{
+    color: white;
+    text-decoration: none;
+}
+button.navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border: 1px solid #FFFFFF80;
+}
+/* card */
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+.card-text{
+    color: #212529;
+    font-weight: 300;
+}
+.card-title{
+    color: #707070;
+    font-weight: 300;
+}
+i {
+    color: #707070;
+}
+.card-ubication{
+    color: #707070;
+    font-weight: 300;
+}
+.card-precio{
+    color: #707070;
+}
+strong {
+    color: #28A745;
+    font-weight: 500;
+}
+#mybutton{
+    border: 1px solid #DDDDDD;
+    background-color: #fff;
+    font-weight: 500;
+    color: #212529;
+}
+/* form */
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+  }
+    .form {
+    width: 100%;
+  }
+  .container-fluid{
+      background-color: #28a745;
+      width: 100%;
+      margin: 0px auto;
+  }
+  .form-control{
+      margin: 10px; 
+      border: 1px solid #DDDDDD;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+  }
+  .text-form{
+      color: #fff;
+      text-align: center;
+      font-family:'Roboto', sans-serif;
+      font-weight: 500;
+      width: 100%;
+  }
+  .form-group{
+    padding-right: 20px;
+  }
+  /* footer */
+.logoPie{
+    width: 7rem;
+}
+footer{
+    text-align: center;
+    color: #707070;
+}
